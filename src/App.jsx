@@ -35,10 +35,10 @@ function App() {
         )}
       </div>
 
-      <div className="wallet-section">
+      {/* <div className="wallet-section"> */}
         {mnemonic && <SolanaWallet mnemonic={mnemonic} />}
         {mnemonic && <EthWallet mnemonic={mnemonic} />}
-      </div>
+      {/* </div> */}
     </div>
   );
 }

@@ -30,7 +30,7 @@ export const EthWallet = ({ mnemonic }) => {
 
     return (
         <div className="wallet-container">
-            <h2>Create Ethereum Wallet</h2>
+            {/* <h2>Create Ethereum Wallet</h2> */}
             <button onClick={createEthWallet} className="wallet-button">Add ETH Wallet</button>
 
             <div className="wallet-list">
